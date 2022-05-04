@@ -275,6 +275,12 @@ img{
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+
+.iconify{
+      font-size: 2rem;
+      margin-right: var(--mb-2);
+      color: var(--first-color);
+}
 .skills__names{
   display: flex;
   align-items: center;
@@ -289,16 +295,16 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 90%;
 }
 .skills__css{
-  width: 85%;
+  width: 80%;
 }
 .skills__js{
-  width: 65%;
+  width: 80%;
 }
 .skills__ux{
-  width: 85%;
+  width: 95%;
 }
 .skills__img{
   border-radius: .5rem;
