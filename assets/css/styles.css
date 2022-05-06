@@ -360,12 +360,7 @@ img{
   padding: 2rem 0;
 }
 
-#gifimm{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
