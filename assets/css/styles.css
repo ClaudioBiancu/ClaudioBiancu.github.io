@@ -95,6 +95,17 @@ img{
   top: 2rem;
   background-color: var(--first-color);
 }
+
+.section-title1{
+  position: relative;
+  font-size: 12pt;
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  text-align: center;
+}
+
+
+
 .section{
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -351,6 +362,8 @@ img{
   margin-left: auto;
 }
 
+
+
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -390,6 +403,15 @@ img{
     width: 80px;
     top: 3rem;
   }
+
+    .section-title1 {
+      margin-bottom: var(--mb-6);
+    }
+
+    .section-title1::after {
+      width: 80px;
+      top: 3rem;
+    }
 
   .nav{
     height: calc(var(--header-height) + 1rem);
